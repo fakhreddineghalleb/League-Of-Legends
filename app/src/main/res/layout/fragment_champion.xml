@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChampionFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:id="@+id/champ1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               android:src="@drawable/ic_leesin"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Name : Lee Sin"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorPrimary" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Role : Jungler"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textColor="@color/colorPrimary" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/champ2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               android:src="@drawable/ic_missfortune"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Name : Miss Fortune"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorPrimary" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Role : ADC"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textColor="@color/colorPrimary" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/champ3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               android:src="@drawable/ic_thresh"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Name : Thresh"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorPrimary" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Role : Support"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textColor="@color/colorPrimary" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/champ4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               android:src="@drawable/ic_nasus"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Name : Nasus"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorPrimary" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Role : Top"
+                   android:layout_margin="10dp"
+                   android:textSize="20sp"
+                   android:textColor="@color/colorPrimary" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>
